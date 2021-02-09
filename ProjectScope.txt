@@ -1,0 +1,93 @@
+Students[id,name,class_id,rollno,contact,address] Done
+
+Subjects[id,title,description] Done
+
+Score[id,subject_id,student_id,total,obtain] Done
+
+Classes[id,title,description]
+
+Dummy Data 
+
+[Student]
+{
+1 Mubashir   10th  1-Green-10 0300-0000222 Abbottabad  Add Result?"Show":Add
+Id  name    class    Rollno     Contact     address     LINK
+}
+
+[Classes]
+{
+    1 10th A
+    1 10th B
+    1 10th C
+    1 9th  A
+    1 9th  C
+}
+[Subjects]
+{
+1 Phy Taught in Matric
+2 Chem Taught in Matric
+3 Bio Taught in Matric
+4 English Taught in Matric
+5 Urud Taught in Matric
+6 Mathematics Taught in Matric
+}
+
+[Score]
+{  
+Score id = 1 
+Student id =1
+Phy - 30/60
+Chem -  30/60
+Bio -30/60
+Mathematics - 30/60
+Engine -30/60
+Urud -30/60
+}
+
+Project Design 
+
+[Controllers]
+{
+    StudentController
+    ClassroomController
+    SubjectController
+    ScoresController
+}
+
+[Models]
+{
+    Student
+    Classroom
+    Subject
+    Scores
+}
+
+[Views]
+{
+Master Layout[Dashboard]
+    Student
+    Classe
+    Subject
+    Result
+}
+
+
+Development Matric
+[Student]
+{
+    Curd : Done 
+}
+[Classe]
+{
+    Curd : Done
+}
+[Subject]
+{
+    Curd : Done
+}
+
+
+[Project Update]
+{
+    Project has been Completed on 8th Feb 2021
+}
